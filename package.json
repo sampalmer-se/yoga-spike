@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "babel-node --presets es2015 ."
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "graphql-depth-limit": "^1.1.0",
+    "graphql-validation-complexity": "^0.2.3",
+    "graphql-yoga": "^1.16.2"
+  }
+}
