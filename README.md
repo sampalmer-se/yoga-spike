@@ -1,4 +1,4 @@
-## Apollo Spike
+## Yoga Spike
 
 This is a test setup of the Yoga GraphQL server. To run this, you need a dev json server.
 
