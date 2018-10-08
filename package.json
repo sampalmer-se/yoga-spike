@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "babel-node --presets es2015 ."
+    "start": "babel-node --presets es2015 .",
+    "build": "babel src -d dist"
   },
   "dependencies": {
     "axios": "^0.18.0",

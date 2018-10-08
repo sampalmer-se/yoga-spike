@@ -7,7 +7,6 @@ import {
   GraphQLList
 } from "graphql";
 import { getSaleCards, getSaleLabels, getPromotion } from "./resolvers";
-import { getCost } from "graphql-validation-complexity";
 
 const SaleCard = new GraphQLObjectType({
   name: "SaleCard",
@@ -26,7 +25,7 @@ const Promotion = new GraphQLObjectType({
   name: "Promotion",
   fields: () => ({
     id: { type: GraphQLString },
-    label: { type: GraphQLString }
+    type: { type: GraphQLString }
   })
 });
 
